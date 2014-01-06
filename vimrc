@@ -8,6 +8,7 @@ Bundle 'tpope/vim-surround'
 Bundle 'kien/ctrlp.vim'
 Bundle 'godlygeek/tabular'
 Bundle 'tpope/vim-markdown'
+Bundle 'fxn/vim-monochrome'
 
 syntax on
 set number

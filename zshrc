@@ -13,4 +13,4 @@ alias trinidad="jruby -S --headless trinidad"
 alias tweet="t update"
 alias free="nocorrect free"
 alias kill-svc="ps aux | grep bin/service.rb | grep -v grep | awk '{print \$2}'| xargs kill -9"
-alias notes='vi ~/Dropbox/notes'
+alias notes='vi ~/Dropbox/notes.txt'
