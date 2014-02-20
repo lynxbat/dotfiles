@@ -28,3 +28,7 @@ colorscheme solarized
 
 "use *.md for markdown
 au BufRead,BufNewFile *.md set filetype=markdown
+
+"display trailing whitespace
+set listchars=trail:.
+set list
