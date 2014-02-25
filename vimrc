@@ -29,6 +29,10 @@ colorscheme solarized
 "use *.md for markdown
 au BufRead,BufNewFile *.md set filetype=markdown
 
+"ruby filetypes
+au BufRead,BufNewFile config.ru set filetype=ruby
+au BufRead,BufNewFile Vagrantfile set filetype=ruby
+
 "display trailing whitespace
 set listchars=trail:.
 set list
