@@ -9,6 +9,7 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'godlygeek/tabular'
 Bundle 'tpope/vim-markdown'
 Bundle 'fxn/vim-monochrome'
+Bundle 'VMop/zed.vim'
 
 syntax on
 set number
@@ -30,8 +31,10 @@ colorscheme solarized
 au BufRead,BufNewFile *.md set filetype=markdown
 
 "ruby filetypes
+au BufRead,BufNewFile Gemfile set filetype=ruby
 au BufRead,BufNewFile config.ru set filetype=ruby
 au BufRead,BufNewFile Vagrantfile set filetype=ruby
+au BufRead,BufNewFile Puppetfile set filetype=ruby
 
 "display trailing whitespace
 set listchars=trail:.
