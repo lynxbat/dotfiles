@@ -10,6 +10,7 @@ export PATH=$PATH:$GOPATH/bin
 
 export GOPATH=$HOME/src/go
 export ZOMBIE=/Users/dpitt/src/zombie
+export Z_CLI_CONFIG="/Users/dpitt/.zcli.conf"
 
 # aliases
 alias trinidad="jruby -S --headless trinidad"
