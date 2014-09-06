@@ -1,18 +1,24 @@
 set nocompatible
+filetype off
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
-Bundle 'Gist.vim'
-Bundle 'altercation/vim-colors-solarized'
-Bundle 'mattn/webapi-vim'
-Bundle 'tpope/vim-surround'
-Bundle 'kien/ctrlp.vim'
-Bundle 'godlygeek/tabular'
-Bundle 'tpope/vim-markdown'
-Bundle 'fxn/vim-monochrome'
-Bundle 'VMop/zed.vim'
-Bundle 'fatih/vim-go'
+Plugin 'gmarik/Vundle.vim'
+
+Plugin 'Gist.vim'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'mattn/webapi-vim'
+Plugin 'tpope/vim-surround'
+Plugin 'kien/ctrlp.vim'
+Plugin 'godlygeek/tabular'
+Plugin 'tpope/vim-markdown'
+Plugin 'fxn/vim-monochrome'
+Plugin 'VMop/zed.vim'
+Plugin 'fatih/vim-go'
+
+call vundle#end()
+filetype plugin indent on
 
 syntax on
 set number
