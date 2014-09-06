@@ -1,3 +1,5 @@
+set nocompatible
+
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
@@ -10,6 +12,7 @@ Bundle 'godlygeek/tabular'
 Bundle 'tpope/vim-markdown'
 Bundle 'fxn/vim-monochrome'
 Bundle 'VMop/zed.vim'
+Bundle 'fatih/vim-go'
 
 syntax on
 set number
@@ -37,5 +40,5 @@ au BufRead,BufNewFile Vagrantfile set filetype=ruby
 au BufRead,BufNewFile Puppetfile set filetype=ruby
 
 "display trailing whitespace
-set listchars=trail:.
+set listchars=tab:\ \ ,trail:·
 set list
