@@ -6,7 +6,7 @@ source $ZSH/oh-my-zsh.sh
 
 # path stuff
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:$GOPATH/bin:/usr/local/go/bin
 
 export GOPATH=$HOME/src/go
 export ZOMBIE=/Users/dpitt/src/zombie

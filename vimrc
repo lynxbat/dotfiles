@@ -14,7 +14,7 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'godlygeek/tabular'
 Plugin 'tpope/vim-markdown'
 Plugin 'fxn/vim-monochrome'
-Plugin 'VMop/zed.vim'
+Plugin 'puppetlabs/puppet-syntax-vim'
 Plugin 'fatih/vim-go'
 
 call vundle#end()
