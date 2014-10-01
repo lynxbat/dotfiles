@@ -22,6 +22,7 @@ filetype plugin indent on
 
 syntax on
 set number
+set backspace=indent,eol,start
 
 "so I can still use shift+arrows
 map OC <Right>

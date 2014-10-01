@@ -13,7 +13,7 @@ export ZOMBIE=/Users/dpitt/src/zombie
 export Z_CLI_CONFIG="/Users/dpitt/.zcli.conf"
 
 # aliases
-alias vi=vim
+alias vi=/usr/local/Cellar/vim/7.4.430_1/bin/vim
 alias trinidad="jruby -S --headless trinidad"
 alias cz="cd $ZOMBIE"
 alias tweet="t update"
