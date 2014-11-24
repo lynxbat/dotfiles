@@ -1,6 +1,5 @@
 #! /bin/bash
 
-rsync rspec ~/.rspec
 rsync vimrc ~/.vimrc
 rsync zshrc ~/.zshrc
 rsync dpitt.zsh-theme ~/.oh-my-zsh/themes/dpitt.zsh-theme

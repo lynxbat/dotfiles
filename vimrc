@@ -13,8 +13,6 @@ Plugin 'tpope/vim-surround'
 Plugin 'kien/ctrlp.vim'
 Plugin 'godlygeek/tabular'
 Plugin 'tpope/vim-markdown'
-Plugin 'fxn/vim-monochrome'
-Plugin 'puppetlabs/puppet-syntax-vim'
 Plugin 'fatih/vim-go'
 
 call vundle#end()
@@ -40,11 +38,8 @@ colorscheme solarized
 "use *.md for markdown
 au BufRead,BufNewFile *.md set filetype=markdown
 
-"ruby filetypes
-au BufRead,BufNewFile Gemfile set filetype=ruby
-au BufRead,BufNewFile config.ru set filetype=ruby
-au BufRead,BufNewFile Vagrantfile set filetype=ruby
-au BufRead,BufNewFile Puppetfile set filetype=ruby
+"tab settings
+autocmd FileType html setlocal shiftwidth=2 tabstop=2
 
 "display trailing whitespace
 set listchars=tab:\ \ ,trail:·
