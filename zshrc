@@ -27,7 +27,7 @@ etcd-stop() {
 
 etcd-start() {
 	pid=$(_get-etcd-pid)
-	if [ ! -z $pid ]; then
+	if [ -z $pid ]; then
 		nohup etcd-server > ~/etcd.log &
 	fi
 }
