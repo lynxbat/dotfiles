@@ -14,6 +14,7 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'godlygeek/tabular'
 Plugin 'tpope/vim-markdown'
 Plugin 'fatih/vim-go'
+Plugin 'tpope/vim-fugitive'
 
 call vundle#end()
 filetype plugin indent on
@@ -21,25 +22,26 @@ filetype plugin indent on
 syntax on
 set number
 set backspace=indent,eol,start
-
-"so I can still use shift+arrows
-map OC <Right>
-map OD <Left>
-map [1;2C <S-Right>
-map [1;2D <S-Left>
-map OB <Down>
-map OA <Up>
-map [1;2A <S-Up>
-map [1;2B <S-Down>
-
 set background=dark
 colorscheme solarized
+
+map q] :cn <CR>
+map q[ :cN <CR>
+map q\ :ccl <CR>
+
+let g:go_fmt_command = "goimports"
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_structs = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_build_constraints = 1
 
 "use *.md for markdown
 au BufRead,BufNewFile *.md set filetype=markdown
 
 "tab settings
-autocmd FileType html setlocal shiftwidth=2 tabstop=2
+autocmd FileType html setlocal shiftwidth=2 tabstop=2 expandtab
+autocmd FileType ruby setlocal shiftwidth=2 tabstop=2 expandtab
 
 "display trailing whitespace
 set listchars=tab:\ \ ,trail:·
