@@ -14,6 +14,7 @@ alias cdp='cd ~/src/go/src/github.com/intelsdilabs/pulse'
 alias irssi='TERM=screen-256color irssi'
 alias :tabe='vi'
 alias ta="tmux attach -d -t"
+alias tl="tmux ls"
 
 alias tweeter='t timeline -e replies | less'
 alias tweet='t tweet'
