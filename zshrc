@@ -18,3 +18,10 @@ alias tl="tmux ls"
 
 alias tweeter='t timeline -e replies | less'
 alias tweet='t tweet'
+
+##########
+
+
+alias gentoo="ssh -i ~/.ssh/gentoo root@gentoo"
+alias centos="ssh -i ~/.ssh/centos root@centos"
+alias pmem="ssh -i ~/.ssh/pmem root@pmem"
