@@ -5,12 +5,12 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # path stuff
-export PATH=$PATH:$GOPATH/bin:/usr/local/go/bin
 export GOPATH=/Users/dpittman/src/go
+export PATH=$PATH:$GOPATH/bin:/usr/local/go/bin
 
 # aliases
 alias vi='vim'
-alias cdp='cd ~/src/go/src/github.com/intelsdilabs/pulse'
+alias cdp='cd ~/src/go/src/github.com/intelsdi-x/pulse'
 alias irssi='TERM=screen-256color irssi'
 alias :tabe='vi'
 alias ta="tmux attach -d -t"
