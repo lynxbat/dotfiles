@@ -2,4 +2,5 @@
 
 rsync ~/.vimrc vimrc
 rsync ~/.zshrc zshrc
+rsync ~/.tmux.conf tmux.conf
 rsync ~/.oh-my-zsh/themes/dpitt.zsh-theme dpitt.zsh-theme

@@ -15,6 +15,7 @@ Plugin 'godlygeek/tabular'
 Plugin 'tpope/vim-markdown'
 Plugin 'fatih/vim-go'
 Plugin 'tpope/vim-fugitive'
+Plugin 'rust-lang/rust.vim'
 
 call vundle#end()
 filetype plugin indent on
