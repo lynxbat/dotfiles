@@ -1,5 +1,6 @@
 #! /bin/bash
 
 rsync vimrc ~/.vimrc
+rsync tmux.conf ~/.tmux.conf
 rsync zshrc ~/.zshrc
 rsync dpitt.zsh-theme ~/.oh-my-zsh/themes/dpitt.zsh-theme
