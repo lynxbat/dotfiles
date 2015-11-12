@@ -43,6 +43,8 @@ au BufRead,BufNewFile *.md set filetype=markdown
 "tab settings
 autocmd FileType html setlocal shiftwidth=2 tabstop=2 expandtab
 autocmd FileType ruby setlocal shiftwidth=2 tabstop=2 expandtab
+autocmd FileType c setlocal shiftwidth=8 tabstop=8 expandtab
+autocmd FileType cpp setlocal shiftwidth=8 tabstop=8 expandtab
 
 "display trailing whitespace
 set listchars=tab:\ \ ,trail:·

@@ -1,8 +1,16 @@
 # Personalized!
+small_pwd() {
+	len=$(pwd | wc -c)
+	if [ $len -gt 30 ]; then
+		echo ".../$(pwd | awk -F/ '{printf "%s/%s", $(NF-1), $NF}')"
+	else
+		echo "%~"
+	fi
+}
 
 # Grab the current filepath, use shortcuts: ~/Desktop
 # Append the current git branch, if in a git repository: ~aw@master
-DAN_CURRENT_LOCA_="%{$fg[blue]%}%~\$(git_prompt_info)%{$reset_color%}"
+DAN_CURRENT_LOCA_="%{$fg[blue]%}\$(small_pwd)\$(git_prompt_info)%{$reset_color%}"
 # Grab the current username: dallas
 DAN_CURRENT_USER_="%{$FG[203]%}%n%{$reset_color%}"
 # prompt char
