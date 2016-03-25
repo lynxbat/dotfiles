@@ -26,6 +26,7 @@ syntax on
 set number
 set backspace=indent,eol,start
 set background=dark
+set colorcolumn=80
 colorscheme solarized
 
 map q] :cn <CR>
